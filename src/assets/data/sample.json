@@ -1,0 +1,25 @@
+{
+    "data":[
+        {
+        "name":"santhosh",
+        "age":"16",
+        "gender":"male",
+        "mobile":"99999",
+        "email":"santu@gmail.com"
+        },
+        {
+            "name":"neelu",
+            "age":"16",
+            "gender":"female",
+            "mobile":"99999",
+            "email":"neelu@gmail.com"
+            },
+            {
+                "name":"sai",
+                "age":"16",
+                "gender":"male",
+                "mobile":"99999",
+                "email":"sai@gmail.com"
+                }
+    ]
+}

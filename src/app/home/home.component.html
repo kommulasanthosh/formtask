@@ -1,0 +1,29 @@
+<div >
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Mobile</th>
+                <th>E-mail</th>
+            </tr>
+        </thead>
+     <tbody >
+         <tr *ngFor="let data of tableData ;let i = index">
+             <td>{{data.name}}</td>
+             <td>{{data.age}}</td>
+             <td>{{data.gender}}</td>
+             <td>{{data.mobile}}</td>
+             <td>{{data.email}}</td>
+             <td>
+                <button class="btn btn-primary" (click)="clickEdit(data,i)">Edit</button>
+             </td>
+             <td>
+                <button class="btn btn-primary" (click)="clickDelete(i)">delete</button>
+             </td>
+         </tr>
+     </tbody>
+    </table>
+     <button class="btn btn-primary" (click)="clickadd()">Add memeber</button>
+ </div>
